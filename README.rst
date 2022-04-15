@@ -22,16 +22,7 @@ Installation:
 -------------
 ::
 
-   pip install mrz_trans 
-
-Cloning this repo (It may not work fine):
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-::
-
-   git clone https://github.com/iharijaona/mrz_trans.git
-   cd mrz_trans
-   sudo python3 setup.py install
+   pip install git+https://github.com/iharijaona/mrz_trans.git
 
 Features:
 ---------
