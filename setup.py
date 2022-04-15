@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: UTF8 -*-
 
-from setuptools import setup
+from setuptools import setup, find_packages
 from sys import version_info, exit
 from os import path
 from mrz_trans import __version__ as version
@@ -26,7 +26,7 @@ setup(
     author_email='hravelondrina@gmail.com',
     url="https://github.com/iharijaona/mrz_trans",
     keywords="transliterate mrz passports visas id cards td1 td2 td3 mrva mrvb icao",
-    packages=["mrz_trans.dictionaries"],
+    packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
